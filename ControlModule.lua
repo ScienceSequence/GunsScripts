@@ -8,11 +8,11 @@ local RayModule = require(game.ReplicatedStorage.Modules.CastRayModule)
 local GuiModule = require(game.ReplicatedStorage.Modules.GuiModule)
 
 	local shooting         = false
-    local connections      = {}
+        local connections      = {}
 	local RenderConnection = nil
 	local PlayerAmmo       = {}
 	local IsReloading      = true
-    local CurrentWeapon    = nil
+        local CurrentWeapon    = nil
 	
 function ControlModule.control(plr,weapon,rayPart,RayPart2)
 	local Config = GunConfig[weapon]
